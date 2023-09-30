@@ -1,2 +1,1 @@
-# TAjneed_WA
-• Executed Ad hoc testing based on intuition and domain knowledge. • Responsible for conducting Error Guessing based on past experiences and knowledge of common issues. • Contributed to the maintenance of the Regression test cases, updating test cases as needed to accommodate changes in the application.
+This repository contains a list of all the manual testing projects I completed during my training. These projects were completed using a variety of manual testing techniques and test management tools.
