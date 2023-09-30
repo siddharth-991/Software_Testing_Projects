@@ -11,8 +11,3 @@ This repository contains a list of all the projects completed during my manual t
 | Sadeeq WA    | To enable users to find any service professional like a cook, a plumber, a carpenter or a pest controller | Excel |
 | Sadeeq MA    | To help customers hire trusted professionals for services such as salon at home, cleaning or cooking | Excel |
 | Provider MA    | To design, develop, and deploy comprehensive and user- friendly admin panel for Sadeeq Application | Excel |
-
-
-## Getting Started
-
-To view the details of each project, simply click on the project name in the table above. The project page will contain a brief description of the project as well as a list of tools used to complete the project.
