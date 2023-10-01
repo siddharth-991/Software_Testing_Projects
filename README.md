@@ -4,8 +4,8 @@ This repository contains a list of all the projects completed during my manual t
 
 ## Project List
 
-| Project Name | Description | Tools Used | jewgwjq | sghdhgfw | hdcjc |
-|--------------|-------------|------------|---------|----------|-------|
+| Project Name | Description | Tools Used |
+|--------------|-------------|------------|
 | Tajneed WA    |  Launched by the Saudi Ministry of Defence (MOD) to automate the recruitment process for civilian jobs | Excel |
 | Tajneed MA    | To make the recruitment process more efficient and transparent | JIRA |
 | Sadeeq WA    | To enable users to find any service professional like a cook, a plumber, a carpenter or a pest controller | Excel |
