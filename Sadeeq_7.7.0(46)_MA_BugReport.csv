@@ -1,0 +1,97 @@
+﻿Module,Screen,Issue,Steps to Reproduce,Priority,Severity,Evidence,Status,Retesting Remarks,Evidence,Status,Working On,Retesting Remarks,Retesting Evidence,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Sign In,Grammatical Issue: A reset password link will be sent to the above entered email address,Profile >> Sign In >> Forgot Password,Medium,Low,IMG_20230516_132150.jpg,Done,Comment: We'll send you a reset password link,,Done,,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Sign up,"Error Message Issue: When User tries to sign up without agreeing to the ""Terms of Service
+                                   and Privacy Policy,"" application does not display an error message.",Profile >> Sign Up,Medium,Medium,XRecorder_04082023_113459.mp4,Done,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Sign up,Comment: Welcome Back! We Missed You For A Long Time,Profile >> Sign up,Medium,Low,IMG_20230818_170418.jpg,,New Issue,,Done,,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Sign up,Email ID Issue: Display of Incorrect Email Address instead of Official Email ID,Profile >> Sign In >> Forgot Password,Medium,Low,Untitled.png,,New Issue,,Need to change email from backend,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Sign up,"Toast Message Issue: ""The email has already been taken.""
+                  Comment: ""Email has already been taken""",Profile >> Sign up,Low,Low,IMG_20230818_170657.jpg,,New Issue,,Message coming from backend,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Address,Functionality Issue: Users can add an empty address without any Error messages,Profile >> Addresses >> Add New Address >> Click on Add,High,Medium,IMG_20230516_132308.jpg,Done,Reopened,XRecorder_18082023_110241.mp4,Done,Ravindra.,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Address,"Grammatical Issue: ""User Address has been save correctly""",Profile >> Addresses >> Add New Address >> Click on Add,Low,Low,IMG_20230516_132351.jpg,Message coming from backend,Reopened,,Done,Ravindra,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Address,"Visibility Issue: In Dark Theme, Addresses are not clearly visible",Profile >> Addresses,Low,Low,IMG_20230516_132418.jpg,Done,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Addresses,"Unncessary Permission Request: Application requested unnecessary permission
+                                                      from the user when accessing ""Map""",Profile >> Addresses >> Add New Address >> Choose From Map,Medium,Low,XRecorder_18082023_105712.mp4,,New Issue,,Done,Ravindra,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Addresses,"UI Issue: When User taps on Dropdown menu, it shifted upward unexpectedly",Profile >> Addresses >> Add New Address >> Name >> Address Type,Medium,Low,XRecorder_18082023_105432.mp4,,New Issue,,its not an issue its dropdown behavior.,Ravindra,"Closed: As per Developer's 
+Remark",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,IMG_20230818_142205.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Addresses,UI Issue: Infinite Box Length Increase with Long Text Entry,Profile >> Addresses >> Add New Address >> Name,Medium,Low,,,,,,,New Issue,IMG_20230918_102816.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Addresses,Error Message Issue : User encounters aninaccurate error message,Profile >> Addresses >> Add New Address >> Name,Medium,Medium,,,,,,,New Issue,IMG_20230918_102755.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,"Helpline
+Number",Contact Link Issue: Helpline Number is not shown at contact page,Profile >> Helpline Number >> Phone,Low,Low,IMG_20230516_132446.jpg,"Done,need exact number for helpline",Closed: Need exact number for Helpline,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Profile,"Icon Mismatch Issue: Icon displayed in the application does not align appropriately
+                                  with the corresponding name associated.",Profile,Medium,Low,IMG_20230804_110327.jpg,Done,"Comment: ""Rate Us"" icon is not clearly visible
+                   ""Wallet"" icon is inconsistent",IMG_20230818_153008.jpg,processing..,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,IMG_20230804_110300.jpg,,,IMG_20230818_152914.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Profile,UI Issue: Identical Icons for Different Fields,Profile,Medium,Low,,,,,,,New Issue,IMG_20230918_102355.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,IMG_20230918_103001.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Profile,"Visibility Issue: In Dark Theme, Rate Us Icon is not visible",Profile,Medium,Low,,,,,,,New Issue,IMG_20230918_114747.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Wallet,"Placeholder Text Issue: User is unable to add value in 'Enter Amount' field.
+                                      First we need to remove Placeholder Text (100)",Profile >> Wallet >> Add Money >> Enter Amount,Medium,Low,IMG_20230516_132509.jpg,Done,Reopened,XRecorder_18082023_112217.mp4,Done,Ravindra.,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Wallet,Data Validation Issue: Application accepts invalid amount,Profile >> Wallet >> Add Money >> Enter Amount,Medium,Low,IMG_20230804_154939.jpg,Done,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Wallet,"Error message Issue: No error message when user taps on ""Proceed to Add"" button",Profile >> Wallet >> Proceed to Add,Medium,Low,XRecorder_18082023_112246.mp4,,New Issue,,Done,Ravindra.,"Reopened: Need exact 
+Error message",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Edit Profile,Data Validation Issue: Application accepts invalid contact number,Profile >> Edit Profile >> Email,Medium,Low,IMG_20230805_151815.jpg,Done.,"Reopened: ""Contact No."" field accepts:
+                              - Greater than 10 digits
+                              - Less than 10 digits
+                              - Blank & Garbage value",IMG_20230818_153557.jpg,Done,,Reopened,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Edit Profile,Data Validation Issue: Application accepts improperly formatted email addresses,Profile >> Edit Profile >> Email,Medium,Low,IMG_20230804_155731.jpg,Working..,"Comment: Please provide any error message
+                 when user taps on ""Email Address"" field",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Edit Profile,"Security Issue: Application fails to request necessary permissions from the user
+                        when accessing “Gallery“",Profile >> Edit Profile >> Edit DP >> Gallery,High,High,XRecorder_05082023_143927.mp4,Working..,Reopened,XRecorder_18082023_155112.mp4,Done,Ravindra,Reopened,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Edit Profile,"Functionality Issue: User unable to add ""Username""",Profile >> Edit Profile,Medium,Medium,XRecorder_05082023_151204.mp4,User does not have rights to update username,"Comment: Please provide any error message
+                  when user taps on ""Username"" field",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Profile,Edit Profile,UI Issue: Infinite Box Length Increase with Long Text Entry,Profile >> Edit Profile >> Address,Medium,Low,,,,,,,New Issue,IMG_20230918_102922.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Categories,Cooks,"UI Inconsistency: ""Add to Cart"" has two different UI designs within the application","Categories >> Cooks >> Non-veg >> Add to cart
+Categories >> Saloon >> Scalp facial >> Add to cart",Medium,Medium,Screenshot_2023-08-05-11-15-25-731.jpg,based the timeslots they are showing like this.This is client requirement,Closed: As per Developer's Remark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Screenshot_2023-08-05-11-15-53-733.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Categories,Cooks,"UI Inconsistency: ""Book Now"" has two different UI designs within the application","Categories >> Cooks >> Non-veg >> Book Now
+Categories >> Saloon >> Scalp facial >> Book Now",Medium,Medium,Screenshot_2023-08-05-11-15-45-732.jpg,based the timeslots they are showing like this.This is client requirement,Closed: As per Developer's Remark,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,, Screenshot_2023-08-05-11-15-20-730.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Categories,Book Service,"UI Inconsistency: There is a mismatch in the total amount displayed during
+                            ""Book Service"" process & the corresponding Thank You message",Categories >> Plumber >> drain cleaning plumbing services >> Book Now >> Step 1 >>Step 2 >> Confirm >> Confirm Booking >> Confirmation Message >> ThankYou Message,Medium,Medium,IMG_20230805_115200.jpg,Working Fine,Reopened,XRecorder_18082023_121114.mp4,Done,Ravindra,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,IMG_20230805_115215.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Categories,"Plumber &
+Cooks",Overlapping Issue(UI): There is an OverLapping of 'Featured Product' & 'Add to Cart' Icon,"Categories >> Plumber >> Drain Cleaning
+Categories >> Cooks >> Non-veg",Low,Low,IMG_20230805_115043.jpg,Done,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,IMG_20230805_115057.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Categories,Book Service,"Functionality Issue: After receiving a confirmation message for booking a service,
+                                the application allows users to return to Step 2
+                                and book the same service multiple times without any restrictions.",Categories >> Security >> Security Cameras >> Book Now >> Step 1 >> Step 2 >> Confirm >> Confirm Booking >> Confirmation Message >> Tap on Back Button,Medium,Medium,XRecorder_04082023_165121.mp4,Done,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Categories,AC Repair,"Functionality Issue: When users attempt to add an item to their favourites, the application
+                                fails or prevent the item from being added to the favourites list..",Categories >> AC Repair >> Windows AC >> Add to Favourite,Medium,High,IMG_20230804_105442.jpg,Done,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Categories,Smart Home,Blank Screen Issue: Screen becomes entirely blank when user taps on Home Cleaning,Categories >> Smart Home >> Home Cleaning,High,High,XRecorder_03082023_161507.mp4,looks good,Reopened,XRecorder_18082023_155244.mp4,Done,,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Categories,Book Service,"Visibility Issue: In Dark Theme, ""Your Address"" field is not clearly visible",Categories >> Security >> Security Cameras >> Book Now,Medium,Low,IMG_20230804_162911.jpg,Done,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Categories,Book Service,UI Issue: Infinite Box Length Increase with Long Text Entry,Categories >> AC Repair >> Split AC >>Book Now >> Description,Medium,Low,,,,,,,New Issue,IMG_20230918_102724.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Categories,Book Service,"Alignment Issue :  User encounters an alignment Issue in ""Subtotal"" & ""Discount"" field",Categories >> AC Repair >> Split AC >>Book Now >> Step 1 >> Step 2,Medium,Low,,,,,,,New Issue,IMG_20230918_102525.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,IMG_20230918_102454.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bookings,Cancel Booking,"Truncation Issue: Reasons for 'Cancel Booking' gets Truncated.
+                            User needs to Scroll down to see all Reasons.",Bookings >> Pending >> Cancel Booking,Low,Low,Screenshot_2023-05-16-12-07-39.jpg,Done,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bookings,Cancel Booking,"Visibility Issue: In Dark Theme, Reasons for 'Cancel Booking' are not clearly visible",Bookings >> Pending >> Cancel Booking,Medium,Low,IMG_20230516_140700.jpg,Done,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bookings,Cancel Booking,UI Issue: Infinite Box Length Increase with Long Text Entry,Bookings >> Pending >> Cancel Booking >> Other Reason,Medium,Low,,,,,,,New Issue,IMG_20230918_102422.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bookings,Bookings,UI Issue: Data is displayed beyond the boundaries of the box,Bookings,Medium,Low,IMG_20230804_162834.jpg,,"Reopened: There is an OverLapping of 'Pending'
+                   & 'Package' Icon ",IMG_20230818_143934.jpg,Done,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chat,Chat,Grammatical Issue: ''You didn't made any conversation yet',Chat,Low,Low,IMG_20230516_140441.jpg,Done,Comment: ''You didn't make any conversation yet',IMG_20230818_143749.jpg,Done,,Closed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dashboard,Dashboard,Blank Screen Issue: Screen becomes entirely blank when user taps on Sliding Carousel,Dashboard >> Sliding Carousel,High,High,XRecorder_03082023_161611.mp4,looks working,Functionality Issue: Sliding Carousel not working,XRecorder_18082023_143840.mp4,"it's working (you have face issue because of here only single slider)
+now i have added one more its working fine.",Ravindra,"Still only single slider 
+is present",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Test Environment,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Operating System: Android 10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Model: Realme 3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Device Type: Real Device,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,App Type: APK File,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,"Screen Size: 6.22""",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Screen Resolution(Physical): 720 x 1520,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Screen Resolution(Logical): 360 x 760,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Device Pixel Ratio(DPR): 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,Aspect Ratio: 9:19,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
