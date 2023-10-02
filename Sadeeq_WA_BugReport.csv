@@ -1,0 +1,62 @@
+﻿Module,Issue,Steps to Reproduce,Priority,Severity,Evidence,Status
+Login,"Security Issue: After logging out, User can access Home page using the
+                          Browser's Back Button",Login >> Dashboard >> Logout >> Brower's Back Button,High,High,screen-capture (5).webm,Done
+,,,,,,
+Home,UI Issue: Search Bar is not clearly visible,Home,Medium,Low,Annotation 2023-08-26 115720.png,
+,Spelling Issue: Discover and find services available to your current area,Home >> Location Icon,Medium,Low,Annotation 2023-08-26 120052.png,
+,Spelling Issue: Apllication,Home >> Refer and get free services,Medium,Low,Annotation 2023-08-26 120442.png,
+,Incomplete Data Issue: Data in the footer is Incomplete,Home >> Footer,Medium,Low,Annotation 2023-08-26 120950.png,
+,UI Issue: Missing Hand Cursor on Hovering,Home,Medium,Medium,screen-capture (1).webm,
+,Functionality Issue: Search Bar not working properly,Home >> Search Icon,Medium,Medium,screen-capture (2).webm,
+,Link Issue: App link does not lead users to the corresponding app page,Home >> Link (Google Play Store/ Apple Store),Medium,Medium,screen-capture (3).webm,
+,,,,,,
+Service,Spelling Issue: Spatial Lunch,Service,Medium,Low,Annotation 2023-08-26 121344.png,
+,"Capitalization UI Issue:  ""duration"" is not capitalized correctly",Service >> Split AC Repair,Low,Low,Annotation 2023-08-26 121701.png,
+,"Label Text Issue:  ""Sra"" should be replaced by ""Pest Control""",Service,Medium,Medium,Annotation 2023-08-26 121841.png,
+,Spelling Issue: Anroid,Service,Medium,Low,Annotation 2023-08-26 121936.png,
+,Spelling Issue: Cattering Non-Veg,Service,Medium,Low,Annotation 2023-08-26 123435.png,
+,"Capitalization UI Issue: ""Filter by category"" is not capitalized correctly",Service,Low,Low,Annotation 2023-08-26 123645.png,
+,Functionality Issue: Price Range Slider is not working properly,Service,Medium,Medium,Annotation 2023-08-26 124545.png,
+,,,,,,
+Admin,"Visibility Issue: In Dark Theme, ""Logout"" option is not clearly visible",Login >> Main >> Dashboard,Medium,Low,Annotation 2023-08-26 140540.png,
+,"Pluralization Issue: ""Top Providers"" is pluralized incorrectly leading to UI Issue",Login >> Main >> Dashboard,Low,Low,Annotation 2023-08-26 140614.png,
+,UI Issue: Identical Icons for Different Fields,Login >> Main >> Dashboard,Medium,Medium,Annotation 2023-08-26 141357.png,
+,UI Issue: Identical Names for Different Fields,Login >> Main >> Dashboard,Medium,Medium,Annotation 2023-08-26 141632.png,
+,"Inconsistency Issue: Profile picture for the same person changes 
+                                 at two different points ",Login >> Main >> Dashboard,Medium,Medium,Annotation 2023-08-26 141703.png,
+,,,,,,
+,Dropdown Issue: Dropdown menu contains an Inappropriate Entry,"Login >> User >> Provider >> ProviderList 
+          >> Add Provider >> Select Country",Medium,Medium,Annotation 2023-08-26 143808.png,
+,,,,,Annotation 2023-08-26 143957.png,
+,"Alignment Issue: Placeholder Text is misaligned
+                            (slightly shifted Downwards)","Login >> User >> Provider >> ProviderList 
+          >> Add Provider >> Select Tax",Medium,Low,Annotation 2023-08-26 144036.png,
+,"Functionality Issue: User can enter Text/ Inappropriate Value
+                                in the Numeric field",Login >> User >> Provider >> ProviderList,Medium,Medium,Annotation 2023-08-26 144859.png,
+,,,,,Annotation 2023-08-26 145003.png,
+,"Inconsistent Theme Conversion Issue: After switching Theme, some relevant UI elements does not change accordingly.",Login >> User >> Provider >> ProviderList,Medium,Low,Annotation 2023-08-26 145844.png,
+,,,,,Annotation 2023-08-26 150055.png,
+,"Visibility Issue: In Dark Theme,Certain portions of the screen do not 
+                        convert to the Dark Theme","Login >> User >> Provider >> ProviderList
+          >> Provider Details >> Overview",Medium,Low,Annotation 2023-08-26 150913.png,
+,"Visibility Issue: In Dark Theme, User Info is not clearly visible","Login >> User >> Provider >> ProviderList
+          >> Provider Details >> Handyman",Medium,Medium,Annotation 2023-08-26 150948.png,
+,,,,,,
+,"Visibility Issue: In Dark Theme, Time Format is not clearly visible",Login >> Service >> ServicePackage >> ServicePackageList >> Update Package,Medium,Low,Annotation 2023-08-26 154728.png,
+,"Alignment Issue: Placeholder Text is misaligned
+                            (slightly shifted Downwards)",Login >> Service >> ServicePackage >> Add Service Package,Medium,Low,Annotation 2023-08-26 155449.png,
+,Functionality Issue: User can save Data without completing mandatory fields,Login >> Service >> ServicePackage >> Add Service Package,High,High,Annotation 2023-08-26 155518.png,Done
+,Spelling Issue: Package has been save successfully,Login >> Service >> ServicePackage >> Add Service Package >> Save,Low,Low,Annotation 2023-08-26 161944.png,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,Test Environment,,,,,
+,Operating System: Windows 10,,,,,
+,Browser: Chrome 117.0.5938.89,,,,,
+,Website: https://brombeersystems.com/sadeeq/#/,,,,,
+,Screen Resolution(Physical): 1366 x 768,,,,,
+,Screen Resolution(Logical): 1366 x 768,,,,,
+,Viewport Size: 1349 x 619,,,,,
+,Device Pixel Ratio(DPR): 1,,,,,
+,Zoom Level: 100%,,,,,
